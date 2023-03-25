@@ -14,7 +14,7 @@ add_library(print_ip_lib lib.cpp)
 add_executable(test_version test_version.cpp)
 
 set_target_properties(print_ip print_ip_lib test_version PROPERTIES
-    CXX_STANDARD 14
+    CXX_STANDARD 20
     CXX_STANDARD_REQUIRED ON
 )
 target_include_directories(print_ip_lib
